@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container-fluid {
+ width:80%!important;
+ margin: 0 auto;
+}
+.section2{
+    background-color: #FFE7EC;
+}
+.top-para {
+    font-size: 12px;
+    font-family: ui-serif;
+    font-weight: 600;
+/*    padding-top: 8px;*/
+}
+section.mobile-banner {
+    display: none;
+}
+.list{
+    margin-left: 30px;
+}
+a.nav-link.don {
+    color: #e00083;
+}
+.glefull-logo {
+    max-width: 50%;
+}
+.effects:hover{
+    color: #e00083!important;
+}
+
+
+
+
+
+
+
+
+
+button.btn.color-btn {
+    color: #E00083;
+}
+.btn-color {
+    margin-top: 30px;
+    padding: 10px 55px 10px 55px!important;
+}
+.shop-all{
+    margin-right: 100px;
+    color: #e00083;
+    font-size: 16px;
+    font-weight: 700;
+}
+.span-list:hover{
+    color: deeppink;
+}
+.banner{
+    background-image: url("file:///E:/Hormone%20Suppliments/Images/Homepage-bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+}
+.banner-text h5 {
+    color: #e00083;
+}
+.banner-text h1 {
+   max-width: 45%;
+    font-family: fangsong;
+}
+.banner-text p {
+    max-width: 50%;
+}
+.banner-text {
+    transform: translate(-1%, 20%);
+    position: absolute;
+    top: -1%;
+    left: 9%;
+}
+.span-text{
+    text-transform: uppercase;
+    color: #E00083;
+}
+.btn-color{
+    background: #E00083!important;
+}
+.banner-logo {
+    margin-top: 35px;
+}
+.span-plus {
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 69%;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.paragraph{
+    padding-top: 17px;
+    color: white;
+    margin-left: 10px;
+}
+.hormone-img {
+    max-width: 158px;
+}
+.products {
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+   /* width: 20%;
+    max-width: 24%;*/
+    margin-right: 21px;
+}
+.btn-color-template {
+    background-color: #E00083!important;
+    padding: 10px 55px 10px 55px!important;
+}
+.reviews h1 {
+    color: #E00083;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: ui-monospace;
+    margin: 0 auto 13px;
+}
+.reviews{
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.reviews p {
+    max-width: 64%;
+}
+
+.face {
+    background: white;
+    border-radius: 10px;
+}
+
+.review {
+    color: #e00083;
+    font-weight: bold;
+}
+.face p {
+    margin: 0 auto;
+    max-width: 84%;
+    font-size: 13px;
+    line-height: 24px;
+}
+.face-img {
+    margin-top: 28px;
+}
+.collage-img {
+    max-width: 100%;
+}
+.mission-text h2 {
+    font-size: 30px;
+    color: #e00083;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+.mission-text p {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.button-seller {
+    margin-bottom: 15px;
+}
+.order{
+    color: #e00083;
+}
+.order-font {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.order-head {
+    font-family: ui-sans-serif;
+    margin: 23px 0px;
+
+}
+.order-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-home ul.list-effects li a:hover {
+    text-decoration: underline !important;
+}
+.end-para{
+    max-width: 50%;
+    font-size: 12px;
+    line-height: 24px;
+}
+.end ul{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+}
+.end ul li a:hover{
+    text-decoration: underline !important;
+}
+.footer-contact {
+    line-height: 10px;
+}
+.last{
+    margin: 10px 0px;
+}
+.add {
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+
+.gleefull-logo{
+    flex-direction: row-reverse;
+}
+
+.products{
+    margin-right: 11px;
+    width: 48% !important ;
+}
+.btn-color-template{
+    margin-bottom: 15px;
+    padding: 5px 18px!important;
+}
+.mary{
+    max-width: 48%!important;
+}
+.mission-text h2 {
+    margin-bottom: 10px;
+}
+.button-seller {
+    text-align: center!important;
+}
+.banner-logo{
+    margin-left: 80px;
+}
+.end-para {
+    max-width: 100%;
+}
+.footer-logo {
+    margin-bottom: 40px;
+}
+.add {
+    margin-top: 15px;
+}
+.face{
+    margin-top: 15px;
+}
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+.banner_for_phone{
+    background:url("file:///E:/Hormone%20Suppliments/Images/banner-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height:230px;
+    margin-top: -36px;
+}
+ul.banner-logo {
+    margin-left: 4px;
+    padding-top: 10px;
+}
+
+.banner-logo img{
+    width: 40px;
+}
+.banners-text {
+    background: #FFEFF8;
+    padding: 20px 0px;
+}
+section.mobile-banner{
+    display: block;
+}
+section.banner {
+    display: none;
+}
+.banner-bottom{
+    display: none;
+}
+.end ul {
+    flex-direction: column;
+}
+.section-template{
+    padding: 0px!important;
+}
+.personal-review{
+    padding: 0px!important;
+}
+.section-mission{
+    padding: 0px!important;
+}
+
+}
